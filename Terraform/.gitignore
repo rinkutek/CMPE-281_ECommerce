@@ -1,0 +1,14 @@
+# Ignore virtual environment
+venv/
+
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Ignore Terraform .terraform directory
+.terraform/
+
+# Other common ignores
+__pycache__/
+*.pyc
+.DS_Store
